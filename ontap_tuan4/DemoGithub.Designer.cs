@@ -69,6 +69,7 @@
             this.btn_sangphai.TabIndex = 1;
             this.btn_sangphai.Text = ">";
             this.btn_sangphai.UseVisualStyleBackColor = true;
+            this.btn_sangphai.Click += new System.EventHandler(this.btn_sangphai_Click);
             // 
             // lst_box2
             // 

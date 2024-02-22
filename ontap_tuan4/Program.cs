@@ -18,7 +18,8 @@ namespace ontap_tuan4
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
             //Application.Run(new frm_demo2());
-            Application.Run(new Frmlamthu());
+            //Application.Run(new Frmlamthu());
+            Application.Run(new DemoGithub());
         }
     }
 }
