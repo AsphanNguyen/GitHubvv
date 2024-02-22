@@ -34,6 +34,7 @@ namespace ontap_tuan4
             if (lst_box1.Items.Count > 0)
             {
                 lst_box2.Items.Add(lst_box1.SelectedItem);
+                //hahahaha
             }
         }
     }
