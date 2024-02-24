@@ -79,5 +79,6 @@ namespace ontap_tuan4
             DialogResult result = MessageBox.Show("Ban co muon thoat", "Thong bao", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.No) { e.Cancel = true; }
         }
+        //Đã nhận được
     }
 }
