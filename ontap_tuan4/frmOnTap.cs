@@ -16,5 +16,21 @@ namespace ontap_tuan4
         {
             InitializeComponent();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            if (txtName.Text == "")
+            {
+                MessageBox.Show("Vui long nhap ten");
+            }
+            if (lstBox1.Items.IndexOf(txtName.Text) >= 0)
+            {
+                MessageBox.Show("Da co");
+            }
+            else
+            {
+                lstBox1.Items.Add(txtName.Text);
+            }
+        }
     }
 }
