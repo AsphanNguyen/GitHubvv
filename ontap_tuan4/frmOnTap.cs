@@ -68,5 +68,16 @@ namespace ontap_tuan4
             lstBox1.Items.RemoveAt(lstBox1.SelectedIndex);
             
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmOnTap_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Ban co muon thoat", "Thong bao", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.No) { e.Cancel = true; }
+        }
     }
 }

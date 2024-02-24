@@ -35,6 +35,7 @@
             this.btnAllphai = new System.Windows.Forms.Button();
             this.lstBox2 = new System.Windows.Forms.ListBox();
             this.btnXoa = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtName
@@ -102,11 +103,22 @@
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
+            // btnThoat
+            // 
+            this.btnThoat.Location = new System.Drawing.Point(628, 12);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(129, 48);
+            this.btnThoat.TabIndex = 4;
+            this.btnThoat.Text = "Thoat";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
             // frmOnTap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.lstBox2);
             this.Controls.Add(this.lstBox1);
@@ -116,6 +128,7 @@
             this.Controls.Add(this.txtName);
             this.Name = "frmOnTap";
             this.Text = "frmOnTap";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmOnTap_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,5 +143,6 @@
         private System.Windows.Forms.Button btnAllphai;
         private System.Windows.Forms.ListBox lstBox2;
         private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
