@@ -90,6 +90,9 @@
     <EmbeddedResource Include="Frmlamthu.resx">
       <DependentUpon>Frmlamthu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmOnTap.resx">
+      <DependentUpon>frmOnTap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
