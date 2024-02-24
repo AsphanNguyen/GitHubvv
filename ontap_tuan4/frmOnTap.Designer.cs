@@ -34,6 +34,7 @@
             this.btnSangPhai = new System.Windows.Forms.Button();
             this.btnAllphai = new System.Windows.Forms.Button();
             this.lstBox2 = new System.Windows.Forms.ListBox();
+            this.btnXoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtName
@@ -70,6 +71,7 @@
             this.btnSangPhai.TabIndex = 1;
             this.btnSangPhai.Text = ">";
             this.btnSangPhai.UseVisualStyleBackColor = true;
+            this.btnSangPhai.Click += new System.EventHandler(this.btnSangPhai_Click);
             // 
             // btnAllphai
             // 
@@ -79,6 +81,7 @@
             this.btnAllphai.TabIndex = 1;
             this.btnAllphai.Text = ">>";
             this.btnAllphai.UseVisualStyleBackColor = true;
+            this.btnAllphai.Click += new System.EventHandler(this.btnAllphai_Click);
             // 
             // lstBox2
             // 
@@ -89,11 +92,22 @@
             this.lstBox2.Size = new System.Drawing.Size(282, 364);
             this.lstBox2.TabIndex = 2;
             // 
+            // btnXoa
+            // 
+            this.btnXoa.Location = new System.Drawing.Point(351, 292);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(87, 54);
+            this.btnXoa.TabIndex = 3;
+            this.btnXoa.Text = "Xoa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
             // frmOnTap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.lstBox2);
             this.Controls.Add(this.lstBox1);
             this.Controls.Add(this.btnAllphai);
@@ -115,5 +129,6 @@
         private System.Windows.Forms.Button btnSangPhai;
         private System.Windows.Forms.Button btnAllphai;
         private System.Windows.Forms.ListBox lstBox2;
+        private System.Windows.Forms.Button btnXoa;
     }
 }
