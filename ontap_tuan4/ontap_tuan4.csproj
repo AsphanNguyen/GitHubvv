@@ -70,6 +70,12 @@
     <Compile Include="Frmlamthu.Designer.cs">
       <DependentUpon>Frmlamthu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmOnTap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOnTap.Designer.cs">
+      <DependentUpon>frmOnTap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DemoGithub.resx">
